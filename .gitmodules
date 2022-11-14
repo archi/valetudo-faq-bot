@@ -1,0 +1,3 @@
+[submodule "simple-tg-faq-bot"]
+	path = simple-tg-faq-bot
+	url = https://github.com/archi/simple-tg-faq-bot.git
