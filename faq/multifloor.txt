@@ -1,0 +1,9 @@
+keywords: multifloor, multi-floor
+
+title: Multifloor Support
+short-title: multifloor
+
+text:
+Due to technical limitations, Valetudo does not support multiple maps. If you need multiple maps, Valetudo likely won't be an option for you.
+The topic has been evaluated many times already, however unfortunately it's not technically feasible with the currently supported robot models and firmwares. (2022-07-17)
+See also https://valetudo.cloud/pages/general/why-not-valetudo.html

@@ -1,0 +1,15 @@
+# Example, stolen from Dennis from https://builder.dontvacuum.me/dreame/cmds.txt
+
+# mandatory: give one or more keywords for the `/faq` command.
+keywords: vaers
+
+# The full title for the entry
+title: Vacuum-robot Adverse Event Reporting System (VAERS)
+
+# A unique, short title for perma links
+short-title: vaers
+
+# everything after this line is interpreted as the text-to-display
+text:
+If you do not get a u-boot prompt, your device might be too new or you updated the robot to a new firmware version.
+In such cases, and if you are in US or Germany, please open a ticket at https://vaers.dontvacuum.me for help

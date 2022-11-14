@@ -1,0 +1,6 @@
+keywords: read-only, ro, tmp
+title: Can not write to '...' (Read-only file system)
+short-title: read-only
+text:
+The file can not be written to the current directory (probably "/").
+Do a "cd /tmp" to get to a location you can write to.
