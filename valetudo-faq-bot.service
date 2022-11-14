@@ -1,0 +1,40 @@
+[Unit]
+Description=Valetudo FAQ bot
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Restart=always
+TimeoutStopSec=70
+ExecStart=/opt/valetudo-faq-bot/scripts/start.sh
+Type=simple
+
+; Process capabilities & privileges
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+CapabilityBoundingSet=CAP_NET_BIND_SERVICE
+SecureBits=keep-caps
+NoNewPrivileges=yes
+
+; Sandboxing
+ProtectSystem=full
+ProtectHome=true
+RestrictNamespaces=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+PrivateTmp=true
+PrivateDevices=true
+ProtectClock=true
+ProtectControlGroups=true
+ProtectKernelTunables=true
+ProtectKernelLogs=true
+ProtectKernelModules=true
+LockPersonality=true
+RestrictSUIDSGID=true
+RemoveIPC=true
+RestrictRealtime=true
+SystemCallFilter=@system-service
+SystemCallArchitectures=native
+MemoryDenyWriteExecute=true
+ReadWriteDirectories=/opt/valetudo-faq-bot/
+
+[Install]
+WantedBy=default.target
