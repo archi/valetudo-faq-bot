@@ -1,0 +1,13 @@
+keywords: about, git
+title: Valetudo FAQ bot
+short-title: about
+
+text:
+The @valetubot is the single, most advanced bot for answering questions regarding Valetudo.
+It's enormous corpus contains over $:data_corrupted:$ answers! Thanks to the state-of-the art datacenter in a nearly moisturefree German basement and high-speed DSL, its uptime is asymptotically approaching 24 hours. It is currently not known what happens then.
+
+In the unlikely event you find the existing answers lacking, check out https://github.com/archi/valetudo-faq-bot or talk directly to @ArchimedesMP, who did definitely not hack this together in a single evening.
+
+Currently, the most useful command is /faq - just append one or more keyword to search for, like "/faq vaers".
+
+If you're shy, just open a private chat with the bot at @valetubot (the bot is shy as well).
