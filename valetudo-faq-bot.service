@@ -16,6 +16,7 @@ SecureBits=keep-caps
 NoNewPrivileges=yes
 
 ; Sandboxing
+DynamicUser=yes
 ProtectSystem=full
 ProtectHome=true
 RestrictNamespaces=true
