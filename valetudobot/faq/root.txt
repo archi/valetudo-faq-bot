@@ -4,4 +4,4 @@ title: Rooting
 short-title: rooting
 
 text:
-Rooting instructions can be found at https://valetudo.cloud/pages/general/rooting-instructions.html
+Rooting instructions can be found at https://valetudo.cloud/pages/general/rooting-essentials.html
