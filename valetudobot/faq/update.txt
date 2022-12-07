@@ -2,4 +2,4 @@ keywords: update, upgrade
 title: Upgrading Valetudo
 short-title: upgrade
 text:
-See upgrading instructions on https://valetudo.cloud/pages/general/upgrading.html
+See upgrading instructions on https://valetudo.cloud/pages/usage/upgrading.html
