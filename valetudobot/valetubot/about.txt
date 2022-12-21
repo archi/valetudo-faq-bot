@@ -1,6 +1,7 @@
 keywords: about, git
 title: Valetudo FAQ bot
 short-title: about
+default: 1
 
 text:
 The @valetubot is the single, most advanced bot for answering questions regarding Valetudo.
