@@ -13,3 +13,5 @@ short-title: vaers
 text:
 If you do not get a u-boot prompt, your device might be too new or you updated the robot to a new firmware version.
 In such cases, please open a ticket at https://vaers.dontvacuum.me for help.
+
+Reminder: Do not leak any information from private conversations in the VAERS system.
