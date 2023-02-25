@@ -1,0 +1,17 @@
+keywords: d9mcu
+title: Early Dreame MCU Issues
+short-title: d9mcu
+text:
+If your Dreame D9 stops working a few seconds after any command or shows other erratic behavior after initially rooting/a firmware update, the MCU of your robot is likely in an invalid state.
+This seems to be a bug in the bootloader of the MCU of early dreames where it fails to switch the firmware slot after an update.
+
+Most of the time, this can be fixed by the following procedure:
+
+- Make sure that the robot is docked
+Repeat the following three times:
+- Download the dustbuilder firmware update package onto the robot
+- run install-manual.sh
+- Wait for it to reboot
+
+If this doesn't help, another thing you can do is undock the robot and let it sit somewhere for 12h+ so that the battery runs out.
+This will power-cycle the MCU and should bring back a working robot.
