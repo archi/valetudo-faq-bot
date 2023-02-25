@@ -2,4 +2,7 @@ keywords: ntp, timezone, time
 title: Timezones and NTP
 short-title: timezone
 text:
-Valetudo always uses UTC internally. Since most robots lack a proper RTC, Valetudo relies on NTP to setup the correct time. If your time is off, make sure you're not blocking NTP in your firewall (or use a local NTP server).
+Valetudo always uses UTC internally. Since most robots lack a proper RTC, Valetudo relies on NTP to setup the correct time.
+If your time is off, make sure you're not blocking NTP in your firewall (or use a local NTP server).
+
+Valetudo will not execute any timers if it is unable to sync the time via NTP.
