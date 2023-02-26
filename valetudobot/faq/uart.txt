@@ -4,13 +4,9 @@ title: UART serial
 short-title: uart
 
 text:
-Most of the time you might want to connect to a bot's serial console using UART.
-If that is the case, you need a UART to USB converter supporting 3.3V; check https://www.google.com/search?q=usb+to+uart+3.3+v+converter - for example https://www.amazon.com/dp/B07DJ3ZQM4
-Now keep these things in mind
 
-1. Always set the adapter to 3.3V (unless your bot requires 5V, which are none these days). A too high voltage might kill your robot.
-2. For our vacuum robots, <b>never</b> connect the voltage (labeld V+, 3V3 or 5V) pin; this might damage your robot or PC!
-3. Connect only GND, RX and TX
-4. Normally TX (transmit) on one side goes to RX (receive) on the other
-5. Sometimes a manufacturer mislabels RX and TX; so if you see nothing on your serial monitor, swap RX and TX.
-6. It is usually safe to swap RX and TX. So if your USB adapter is mislabeled, that's no problem :)
+1. Always set the adapter to voltage stated in the rooting docs. An incorrect voltage <b>will destroy your robot</b>.
+2. For our vacuum robots, <b>never</b> connect the voltage (labelled V+, 3V3 or 5V) pin as it <b>will damage your robot or PC</b>!
+3. Only connect GND, RX and TX
+4. TX (transmit) on one side goes to RX (receive) on the other
+5. Sometimes a manufacturer mislabels RX and TX. If you see nothing on your serial monitor, swap RX and TX.

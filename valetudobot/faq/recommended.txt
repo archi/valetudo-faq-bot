@@ -2,4 +2,4 @@ keywords: recommended, supported
 title: Recommended Robots
 short-title: recommended
 text:
-Currently recommended robots can be found at https://valetudo.cloud/pages/general/buying-supported-robots.html
+Recommended robots can be found at https://valetudo.cloud/pages/general/buying-supported-robots.html

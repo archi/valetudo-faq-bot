@@ -11,7 +11,16 @@ short-title: vaers
 
 # everything after this line is interpreted as the text-to-display
 text:
-If you do not get a u-boot prompt, your device might be too new or you updated the robot to a new firmware version.
-In such cases, please open a ticket at https://vaers.dontvacuum.me for help.
+VAERS is a ticket system run by the team that is used to handle advanced questions and issues that may arise when rooting robots.
 
-Reminder: Do not leak any information from private conversations in the VAERS system.
+For example, cases in which opening a VAERS ticket is the way to go would be things like:
+- bricked robots (flashing LEDs without any function)
+- weird and erratic robot behavior (e.g. weird navigation, robot shutting off for no apparent reason, etc.)
+- failure to use rooting methods (e.g. for newly produced devices)
+
+VAERS can be found here:
+https://vaers.dontvacuum.me
+
+Reminder:
+Do not leak any information from private conversations in the VAERS system.
+

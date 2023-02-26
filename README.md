@@ -9,4 +9,4 @@ Check the file format in the `valetudobot/faq` folder; it's really simple. The m
 
 And that's about it: Just create a PR with `valetudobot/faq/your_great_new_entry.txt`.
 
-If something is off, I'll help you fixing it it (or I'll fix the file parser) :)
+If something is off, I'll help you fix it (or I'll fix the file parser) :)
