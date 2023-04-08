@@ -1,0 +1,14 @@
+keywords: goto, gotolocation, map, ha, mqtt, rest
+
+title: goto location
+short-title: go-to-location
+
+text:
+
+Not all robots support this feature!
+
+1. On the Home map, click on the Map Mode Selection (top right of the map), select "Go To".
+2. Click anywhere on the map you want the robot to go.
+3. Then long-click on the GO TO LOCATION button (bottom right of map), a dialog comes up with the actual payload for MQTT including coords, which can also be used for REST.
+
+If your robot does not have this feature, you can try defining a very small zone at the target location, sending your robot to do a zone clean up for that zone, and then cancel the clean up once the robot reaches the zone. This is rather fragile, but the only option.
