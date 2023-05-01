@@ -1,0 +1,10 @@
+keywords: dreame, wifi, spawn
+
+title: Spawn WiFi AP
+short-title: spawn-wifi
+img: wifi.jpg
+
+text:
+If you don't see the robot's WiFi AP, try pressing the outer buttons to spawn it again.
+
+When the AP spawns, connect to it and configure WiFi using the valetudo webinterface.
