@@ -1,0 +1,5 @@
+keywords: supported
+title: Supported Robots
+short-title: supported
+text:
+Supported robots can be found at https://valetudo.cloud/pages/general/supported-robots.html

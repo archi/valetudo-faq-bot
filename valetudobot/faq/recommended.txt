@@ -1,4 +1,4 @@
-keywords: recommended, supported
+keywords: recommended
 title: Recommended Robots
 short-title: recommended
 text:
