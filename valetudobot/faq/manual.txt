@@ -1,0 +1,17 @@
+keywords: manual, install
+title: Manually installing/upgrading/downgrading Valetudo
+short-title: manual install
+text:
+It may happen that you forgot to package valetudo when building the rooted firmware, or Valetudo was lost in a reset, or you want to install a different version of Valetudo.
+These are the manual steps to do so.
+
+1. Connect to your robot over ssh
+2. Check the architecture of your robot: "uname -a". Look for something like armv7 or aarch64
+3. Find the location of valetudo. Old Roborocks (V1, S5) used /usr/local/bin, newer Roborocks use /mnt/data, Dreame uses /data and Viomi is /mnt/UDISK
+4. Kill valetudo: "killall valetudo"
+5. Delete the old binary (replace folder with what you found in 3): "rm /data/valetudo"
+    or make a backup: "mv /data/valetudo /data/valetudo.old"
+    (if you get an error, you did not kill valetudo, see step 4)
+6. download the latest binary, choice depends on step 2, folder depends on step 3: wget https://github.com/Hypfer/Valetudo/releases/latest/download/valetudo-{armv7,armv7-lowmem,aarch64} -O /data/valetudo
+7. Reboot your robot: "reboot"
+8. Wait, it will be minutes before your map shows up again
