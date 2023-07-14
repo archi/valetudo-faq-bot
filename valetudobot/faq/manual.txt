@@ -13,5 +13,6 @@ These are the manual steps to do so.
     or make a backup: "mv /data/valetudo /data/valetudo.old"
     (if you get an error, you did not kill valetudo, see step 4)
 6. download the latest binary, choice depends on step 2, folder depends on step 3: wget https://github.com/Hypfer/Valetudo/releases/latest/download/valetudo-{armv7,armv7-lowmem,aarch64} -O /data/valetudo
+7. Make it executable: "chmod +x /data/valetudo"
 7. Reboot your robot: "reboot"
 8. Wait, it will be minutes before your map shows up again
