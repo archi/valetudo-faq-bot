@@ -1,0 +1,10 @@
+keywords: autostart
+title: Setup Valetudo to autostart
+short-title: autostart-valetudo
+text:
+For DREAME robots:
+1. download the latest binary for your model of robot (as per "/faq manual")
+2. chmod +x /data/valetudo
+4. cp /misc/_root_postboot.sh.tpl /data/_root_postboot.sh
+5. chmod +x /data/_root_postboot.sh
+6. reboot
