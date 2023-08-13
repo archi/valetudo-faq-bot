@@ -4,4 +4,4 @@ title: Home Assistant MQTT ID issue
 short-title: HA MQTT ID
 
 text:
-For information on this (completly Home Assistant made) issue and how best to handle it, check https://github.com/Hypfer/Valetudo/issues/1847#issuecomment-1670819008
+For information on this (completely Home Assistant made) issue and how best to handle it, check https://github.com/Hypfer/Valetudo/issues/1847#issuecomment-1670819008
