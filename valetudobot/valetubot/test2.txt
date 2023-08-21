@@ -1,0 +1,7 @@
+keywords: valetubottest
+
+title: Test
+short-title: test2
+
+text:
+Valetubot test #2
