@@ -1,4 +1,4 @@
-keywords: goto, gotolocation, map, ha, mqtt, rest
+keywords: goto, gotolocation, map, rest
 
 title: goto location
 short-title: go-to-location

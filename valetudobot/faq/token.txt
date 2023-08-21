@@ -1,0 +1,17 @@
+keywords:
+
+title: API token used for local integrations
+short-title: api-token
+
+text:
+To access the vacuum robot with third party software purely locally you need the API token.
+
+NOTE:
+Do keep in mind that the local miio interface has a singular constantly incrementing message ID counter. Having multiple pieces of software interact with that interface will cause them to fight over who has the latest ID which will result in command delays or timeouts. 
+Make sure to check the Valetudo API first for anything you need, or ask in the channel maybe there already is an easier solution available.
+
+1) If you are rooted and have valetudo installed, this is easy. The token is printed to the Valetudo log on startup. Filter with "LocalSecret"
+2) If you are rooted but don't have valetudo, the token can be extracted by connecting to the device via SSH and reading the file:
+- Roborock - printf $(cat /mnt/data/miio/device.token) | xxd -p
+- Dreame - printf $(cat /data/config/miio/device.token) | xxd -p
+3) If you're not rooted or the above does not work, all the other methods are documented here: https://python-miio.readthedocs.io/en/latest/discovery.html#obtaining-tokens
