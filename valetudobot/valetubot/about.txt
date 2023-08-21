@@ -11,4 +11,4 @@ In the unlikely event you find the existing answers lacking, check out https://g
 
 Currently, the most useful command is /faq - just append one or more keyword to search for, like "/faq vaers".
 
-If you're shy, just open a private chat with the bot at @valetubot (the bot is shy as well).
+You can also use the same commands in a private chat at @valetubot.
