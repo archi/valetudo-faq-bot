@@ -1,0 +1,5 @@
+keywords: newcomer, new, noob
+title: Newcomer Guide
+short-title: newcomer
+text:
+A newcomer guide explaining how Valetudo works can be found here: https://valetudo.cloud/pages/general/newcomer-guide.html
