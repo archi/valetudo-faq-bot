@@ -6,6 +6,6 @@ Hello and welcome to the world of Valetudo! (https://valetudo.cloud)
 
 A newcomer guide explaining how Valetudo works can be found here: https://valetudo.cloud/pages/general/newcomer-guide.html
 
-Officially supported robots can be found here: /faq supported
+Officially supported robots can be found here: <pre>/faq supported</pre>
 
 Also since you're already on TG, please own this message and join the groups relevant to you: https://t.me/dust_announce/4
