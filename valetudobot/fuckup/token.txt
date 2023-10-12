@@ -7,8 +7,9 @@ text:
 To access the vacuum robot with third party software purely locally you need the miio API token.
 
 DANGER DANGER DANGER:
-Do keep in mind that the local miio interface has a singular constantly incrementing message ID counter.
-Having multiple pieces of software interact with that interface will cause them to fight over who has the latest ID which will result in command delays or timeouts. 
+The miio API is not built for concurrent access.
+It has a singular, constantly incrementing message ID counter.Having multiple pieces of software interact with that interface will cause them to fight over who has the latest ID which will result in command delays or timeouts.
+If this helps you: The ID coming from valetudo is based on the current timestamp (check the sources for details).
 Make sure to check the Valetudo API first for anything you need, or ask in the channel maybe there already is an easier solution available.
 
 1) If you are rooted and have valetudo installed, this is easy. The token is printed to the Valetudo log on startup. Filter with "LocalSecret"
