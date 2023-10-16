@@ -4,4 +4,4 @@ short-title: supported
 text:
 Supported robots can be found at https://valetudo.cloud/pages/general/supported-robots.html
 
-You can now also for <code>/root</code> instructions, on its own for a list of keywords, or with keywords which will produce a link to the relevant Valetudo docs. e.g. <code>/root z10</code>, and multiple results if it matches more than one entry.
+You can now ask for <code>/root</code> instructions, on its own for a list of keywords, or with keywords which will produce a link to the relevant Valetudo docs. e.g. <code>/root z10</code>, and multiple results if it matches more than one entry.
