@@ -11,7 +11,7 @@ short-title: vaers
 
 # everything after this line is interpreted as the text-to-display
 text:
-VAERS is a ticket system run by the team that is used to handle advanced questions and issues that may arise when rooting supported (/faq supported) robots.
+VAERS is a ticket system run by the team that is used to handle advanced questions and issues that may arise when rooting supported (<code>/faq supported</code>) robots.
 
 For example, cases in which opening a VAERS ticket is the way to go would be things like:
 - bricked robots (flashing LEDs without any function)
