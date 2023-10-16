@@ -6,13 +6,13 @@ It may happen that you forgot to package valetudo when building the rooted firmw
 These are the manual steps to do so.
 
 1. Connect to your robot over ssh
-2. Check the architecture of your robot: <pre>uname -a</pre>. Look for something like armv7 or aarch64
-3. Find the location of valetudo. Old Roborocks (V1, S5) used <pre>/usr/local/bin</pre>, newer Roborocks use <pre>/mnt/data</pre>, Dreame uses <pre>/data</pre> and Viomi is <pre>/mnt/UDISK</pre>
-4. Kill valetudo: <pre>killall valetudo</pre>
-5. Delete the old binary (replace folder with what you found in 3): <pre>rm /data/valetudo</pre>
-    or make a backup: <pre>mv /data/valetudo /data/valetudo.old</pre>
+2. Check the architecture of your robot: <code>uname -a</code>. Look for something like armv7 or aarch64
+3. Find the location of valetudo. Old Roborocks (V1, S5) used <code>/usr/local/bin</code>, newer Roborocks use <code>/mnt/data</code>, Dreame uses <code>/data</code> and Viomi is <code>/mnt/UDISK</code>
+4. Kill valetudo: <code>killall valetudo</code>
+5. Delete the old binary (replace folder with what you found in 3): <code>rm /data/valetudo</code>
+    or make a backup: <code>mv /data/valetudo /data/valetudo.old</code>
     (if you get an error, you did not kill valetudo, see step 4)
-6. download the latest binary, choice depends on step 2, folder depends on step 3: <pre>wget https://github.com/Hypfer/Valetudo/releases/latest/download/valetudo-{armv7,armv7-lowmem,aarch64} -O /data/valetudo</pre>
-7. Make it executable: <pre>chmod +x /data/valetudo</pre>
-8. Reboot your robot: <pre>reboot</pre>
+6. download the latest binary, choice depends on step 2, folder depends on step 3: <code>wget https://github.com/Hypfer/Valetudo/releases/latest/download/valetudo-{armv7,armv7-lowmem,aarch64} -O /data/valetudo</code>
+7. Make it executable: <code>chmod +x /data/valetudo</code>
+8. Reboot your robot: <code>reboot</code>
 9. Wait, it will be minutes before your map shows up again
