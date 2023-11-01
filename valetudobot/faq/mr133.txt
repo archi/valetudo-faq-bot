@@ -1,0 +1,9 @@
+keywords: mr133, l10u, l10spro
+title: Porting to MR133 based bots
+short-title: mr133-fastboot
+text:
+Sometimes people ask about support for L10 Ultra or L10s Pro, which are based on the MR133 CPU/SoC.
+The problem is that for the more modern robots the FELroot method uses "fastboot"; but unlike the MR813 (that are in D10sX and L10sU), the MR133 is not supported by the necessary tools. Dennis (dgi) and Sören (NotHypfer) were working on some of this, but hit issues with USB initialization. They invested lots of time on remote debugging the issue (Dennis has none of the robots in question), but since the robots based on that chip are rather rare, they ultimately decided to focus on the MR813-based robots.
+
+Sören stated: Generally, given the amount of actually supported - supported as in the "dev actually cares about and invests into it being in a usable state" [...] - robots, I'd be glad if people could stop asking for even more supported robots.
+There are more than enough options. You just have to actually think and do your research before buying something new instead of buying something at random and then hoping that by virtue of magic, some nerd on the internet will surely make things work
