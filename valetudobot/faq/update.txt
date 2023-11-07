@@ -1,5 +1,9 @@
-keywords: update, upgrade
+keywords: update, upgrade, install
 title: Upgrading Valetudo
 short-title: upgrade
 text:
 See upgrading instructions on https://valetudo.cloud/pages/usage/upgrading.html
+
+These can be followed for manual installs/upgrades/downgrades as well.
+In case you forgot to package valetudo when building the rooted firmware, or Valetudo was lost in a reset, or you want to install a different version of Valetudo.
+For the manual variant, check-out the non-recommended `/fuckup manual`.
