@@ -5,6 +5,6 @@ text:
 For DREAME robots:
 1. download the latest binary for your model of robot (as per <code>/faq manual</code>)
 2. <code>chmod +x /data/valetudo</code>
-4. <code>cp /misc/_root_postboot.sh.tpl /data/_root_postboot.sh</code>
-5. <code>chmod +x /data/_root_postboot.sh</code>
-6. <code>reboot</code>
+3. <code>cp /misc/_root_postboot.sh.tpl /data/_root_postboot.sh</code>
+4. <code>chmod +x /data/_root_postboot.sh</code>
+5. <code>reboot</code>
