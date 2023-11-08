@@ -3,7 +3,11 @@ title: Manually installing/upgrading/downgrading Valetudo
 short-title: manual install
 text:
 It may happen that you forgot to package valetudo when building the rooted firmware, or Valetudo was lost in a reset, or you want to install a different version of Valetudo.
-These are the manual steps to do so.
+
+The recommended path is to follow the upgrade instructions at https://valetudo.cloud/pages/usage/upgrading.html 
+Straying from that path might give you a hard time asking for support.
+
+These are the manual steps to do so:
 
 1. Connect to your robot over ssh
 2. Check the architecture of your robot: <code>uname -a</code>. Look for something like armv7 or aarch64

@@ -1,0 +1,5 @@
+keywords: faq 
+title: Official FAQ
+short-title: official-faq
+text:
+You can find the official, non-technical FAQ at https://valetudo.cloud/pages/faq.html
