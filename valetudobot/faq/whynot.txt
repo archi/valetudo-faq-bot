@@ -1,0 +1,9 @@
+keywords: why,not,whynot,why-not 
+
+title: Why not Valetudo 
+short-title: whynot
+
+text:
+Valetudo is opinionated software and does not aim for feature parity.
+Also be reminded it replaces only the cloud, not the actual firmware/business logic!
+To figure out why Valetudo might not be for you, check out https://valetudo.cloud/pages/general/why-not-valetudo.html
