@@ -1,0 +1,5 @@
+keywords: noreboot, reboot
+title: Reboot button in Valetudo
+short-title: Valetudo Reboot
+text:
+https://valetudo.cloud/pages/faq.html#why-is-there-no-reboot-button-in-valetudo-
