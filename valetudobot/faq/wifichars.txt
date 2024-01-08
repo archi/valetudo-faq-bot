@@ -1,0 +1,9 @@
+keywords: wifi, special, specialchars, invalid
+title: Special characters in wifi SSID and password are not allowed
+short-title: Wifi invalid chars
+text:
+When connecting the robot to the wifi, the robot is being provisioned with new tokens etc, the password moves through multiple binaries and shell scripts inside the firmware. On some broken firmwares, if the SSID and Password contain special characters this process just breaks. Hence they are not allowed.
+
+On certain robots you can manually change the credentials AFTER setting them using the Valetudo webui, but not all.
+
+Please note that if you fail to connect the robot to your wifi using the Valetudo webui, you WILL have issues. (https://github.com/Hypfer/Valetudo/discussions/1843)

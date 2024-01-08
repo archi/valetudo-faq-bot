@@ -1,0 +1,15 @@
+keywords: dreame, wifi, clear, old, oldwifi, clearwifi
+title: Clearing old wifi entries
+short-title: clear old wifi
+text:
+Dreame robots have the "feature" of remembering old wifi credentials, in case the new wifi credentials do not work, the robot would still be accessible on the old setting. However this has the side-effect of the robot shifting networks when e.g. there is low reception of the one network you want it on. 
+
+There is no way of clearing the old wifi credentials other than these commands, depending on your robot. You need to connect by ssh.
+
+Gen2 Dreames:
+Edit <code>/data/config/wifi/ap_config.json</code> and remove the old credentials
+
+Gen3 Dreames:
+Execute <code>dreame_release.na -c 9 -i ap_info -m " "</code>
+
+If you're confused whether your robot is Gen2 or 3, the json file does not exist on Gen3 robots, so just check if that file exists first.
