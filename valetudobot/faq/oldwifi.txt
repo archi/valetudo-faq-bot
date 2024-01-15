@@ -10,6 +10,6 @@ Gen2 Dreames:
 Edit <code>/data/config/wifi/ap_config.json</code> and remove the old credentials
 
 Gen3 Dreames:
-Execute <code>dreame_release.na -c 9 -i ap_info -m " "</code>
+Execute <code>manager_ap.sh del_ap 'OldSSID' && reboot</code>
 
 If you're confused whether your robot is Gen2 or 3, the json file does not exist on Gen3 robots, so just check if that file exists first.
