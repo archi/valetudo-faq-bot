@@ -1,0 +1,5 @@
+keywords: https, ssl, tls
+title: No HTTPS support
+short-title: no-https
+text:
+https://valetudo.cloud/pages/faq.html#https
