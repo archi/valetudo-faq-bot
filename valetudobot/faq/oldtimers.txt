@@ -1,0 +1,8 @@
+keywords: timer, timers, schedule, schedules, dreame
+title: Removing old timers (from before rooting)
+short-title: remove-old-timers
+text:
+If you used the Dreame robot with the vendor app before rooting, settings timers etc, and forgot to factory reset the bot before rooting, the timers will persist and work without you being able to access them.
+
+Fortunately it is easy to remove them on Dreame robots, just connect over ssh to the bot and run this command:
+<code>sqlite3 /data/config/ava/timer_task.db "delete from clean_timer;"</code>
