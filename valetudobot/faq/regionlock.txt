@@ -1,5 +1,5 @@
 keywords: region, regionlock, bypass
-title: Can I use Valetudo to bypass region locks?
+title: May I use Valetudo to bypass region locks?
 short-title: Bypass Region Lock
 text:
-NO! https://valetudo.cloud/pages/faq.html#regionlock
+NO you may NOT! This is why - https://valetudo.cloud/pages/faq.html#regionlock
