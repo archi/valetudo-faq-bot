@@ -5,5 +5,5 @@ short-title: multifloor
 
 text:
 Due to technical limitations, Valetudo does not support multiple maps. If you need multiple maps, Valetudo likely won't be an option for you.
-The topic has been evaluated and rejected many times already. Just think, even the vendor's own method, with multiple engineers on the project, is yanky.
+The topic has been evaluated and rejected many times already. Even the vendor's own method, with multiple engineers on the project, is still not fit for purpose.
 See also https://valetudo.cloud/pages/general/why-not-valetudo.html#no-multi-floormulti-map-support
