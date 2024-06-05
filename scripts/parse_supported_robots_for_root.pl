@@ -6,7 +6,8 @@ use List::MoreUtils qw(uniq);
 
 my $mdfile = "supported-robots.md";
 
-open my $in, "<$mdfile" or die "Could not open '$mdfile': $!\n";
+open my $in, "<$mdfile" or die "Could not open '$mdfile': $!\n"
+    . "You can fetch it from https://raw.githubusercontent.com/Hypfer/Valetudo/master/docs/_pages/general/supported-robots.md\n";
 
 my $outdir = shift;
 $outdir =~ s@/$@@ if defined $outdir; 
@@ -21,7 +22,7 @@ while (my $line = <$in>) {
     ++$n;
     # strip trailing whitespaces
     $line =~ s/\s*$//;
-    if ($line eq '## Table of Contents') {
+    if ($line =~ m/.*\[Xiaomi\]/) {
         $in_toc = 1;
     } elsif (!$in_toc) {
         next;
@@ -84,7 +85,7 @@ sub add_keywords {
 }
 
 foreach my $id (sort keys %robots) {
-    print "$id\n";
+    print "ID: $id\n";
     $n = 0;
     my %keywords;
     foreach my $model (uniq sort @{$robots{$id}{"models"}}) {
@@ -99,7 +100,7 @@ foreach my $id (sort keys %robots) {
     next unless $outdir;
 
     my @uniq_models = uniq @{$robots{$id}{"models"}};
-    sort @uniq_models;
+    @uniq_models = sort @uniq_models;
     my $fname = "$outdir/$id.txt";
     die "Duplicate filename '$fname'!" if -e $fname;
     open my $out, ">$fname" or die "Could not open '$fname': $!\n";
