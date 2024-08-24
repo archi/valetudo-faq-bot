@@ -1,0 +1,11 @@
+keywords: soldering
+
+title: Soldering tips
+short-title: soldering
+img: soldering.jpg
+
+text:
+Consider this info graphic when soldering.
+Don't put the solder on the iron (just a thin coat after cleaning, like the text says), instead apply heat (iron) and solder on the part at the same time - just as the info graphic's first row shows.
+
+Also check your solder joints (second row), since bad joints cause issues like not being able to send keyboard input to your robot (or worse).
