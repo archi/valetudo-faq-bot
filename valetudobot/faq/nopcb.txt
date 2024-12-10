@@ -1,0 +1,15 @@
+keywords: nopcb
+
+title: No PCB, no support
+short-title: nopcb
+img: nopcb-combined.jpg
+
+text:
+You can do whatever you want, but only supported setups are supported. If you do not follow the official guides on valetudo.cloud, you do not get to ask questions.
+
+You only risk bricking and preventable issues. In the days before we had the breakout boards, issues were manifold and sometimes required complex unbricking procedures. Only one or two persons really know how to perform these reliably, and as a community we should not waste their time.
+
+The breakout PCBs are virtually free: The KiCAD project files are available as CC-BY-NC-SA, so you can build your own. Better yet: They are *not* meant for sale, they are meant to be shared. There is a good chance someone will be able to sent it to you - at the cost of shipping.
+Just check out the the PCB sharing group: https://t.me/+vuPbtb23w0g0NGIy
+
+As a bonus, this is probably the best way to contribute to the community: If you got spare PCBs (or are finished with rooting), you can send them to other people.
