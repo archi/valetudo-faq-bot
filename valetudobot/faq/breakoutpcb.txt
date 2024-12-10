@@ -3,6 +3,6 @@ title: Dreame Adapter PCBs for Valetudo
 short-title: dreame-pcb-breakout
 text:
 GIT info - https://github.com/Hypfer/valetudo-dreameadapter
-Soldering guide - https://github.com/Hypfer/valetudo-dreameadapter/tree/master/pcbs/dreamebreakout
+Soldering guide - https://github.com/Hypfer/valetudo-dreameadapter/tree/master/pcbs/dreamebreakout#guide
 Community - https://github.com/Hypfer/valetudo-dreameadapter?tab=readme-ov-file#community-building
-TG group - https://t.me/+vuPbtb23w0g0NGIy
+TG group - https://t.me/+wSnYim0M_TE0NmMy
