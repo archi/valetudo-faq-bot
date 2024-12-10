@@ -5,11 +5,17 @@ short-title: nopcb
 img: nopcb-combined.jpg
 
 text:
-You can do whatever you want, but only supported setups are supported. If you do not follow the official guides on valetudo.cloud, you do not get to ask questions.
+While you can do whatever you want, only supported setups are supported. There will be no support for unsupported setups.
+If you decide to not follow the instructions, you will have to solve your own problems.
+That explicitly means not having to ask questions about what to do, what works, etc.
 
-You only risk bricking and preventable issues. In the days before we had the breakout boards, issues were manifold and sometimes required complex unbricking procedures. Only one or two persons really know how to perform these reliably, and as a community we should not waste their time.
+The PCB is <b>not</b> a way of monetization for the project. In fact, is is explicitly meant <b>not to be sold</b> but shared.
 
-The breakout PCBs are virtually free: The KiCAD project files are available as CC-BY-NC-SA, so you can build your own. Better yet: They are *not* meant for sale, they are meant to be shared. There is a good chance someone will be able to sent it to you - at the cost of shipping.
-Just check out the the PCB sharing group: https://t.me/+vuPbtb23w0g0NGIy
+It is simply a passive adapter existing purely to rule out common issues caused by bad cabling, bad signal integrity, flaky connections etc.
+And a cheap one at that too; per PCB costing less than 1% of what you paid for your robot.
 
-As a bonus, this is probably the best way to contribute to the community: If you got spare PCBs (or are finished with rooting), you can send them to other people.
+The KiCAD project for self-manufacturing + a soldering guide can be found on Github
+https://github.com/Hypfer/valetudo-dreameadapter
+
+Alternatively, you may also join the PCB Sharing Group, where you might find other people in your area that would be willing to share their PCB with you.
+https://t.me/+Mqpx_FbYY_02MGIy
